@@ -13,7 +13,7 @@
         <script>
 
 
-            var marks=80;
+            var marks=65;
 
             switch(true)
             {
@@ -22,6 +22,20 @@
                     document.write("A+");
                 }
                 break;
+                case(marks<=80 && marks>=70):
+                {
+                    document.write("A");
+                }
+                break;
+                case (marks<=70 && marks>=60):
+                    {
+                        document.write("A-")
+                    }
+                    break;
+                default:
+                    {
+                        document.write("Failed")
+                    }
            
 
             }
